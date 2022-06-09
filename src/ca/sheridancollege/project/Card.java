@@ -6,7 +6,7 @@ package ca.sheridancollege.project;
  * should remember to add themselves as a modifier.
  * @author dancye, 2018
  * @author rana, 2022
- * @author mehakpreet, 2022
+ * @author mehakpreet, 2022, working from laptop
  * @author jobanpreet, 2022
  */
 public abstract class Card {

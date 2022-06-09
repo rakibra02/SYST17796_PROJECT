@@ -1,13 +1,11 @@
-/**
- * SYST 17796 Project Winter 2019 Base code.
- * Students can modify and extend to implement their game.
- * Add your name as a modifier and the date!
- */
 package ca.sheridancollege.project;
 
 /**
  * A class that models each Player in the game. Players have an identifier, which should be unique.
  * @author dancye, 2018
+ * @author rana, 2022
+ * @author mehakpreet, 2022
+ * @author jobanpreet, 2022
  */
 public abstract class Player 
 {
@@ -17,16 +15,14 @@ public abstract class Player
      * A constructor that allows you to set the player's unique ID
      * @param name the unique ID to assign to this player.
      */
-    public Player(String name)
-    {
+    public Player(String name) {
         playerID= name;
     }
     
     /**
      * @return the playerID
      */
-    public String getPlayerID() 
-    {
+    public String getPlayerID() {
         return playerID;
     }
 
@@ -34,8 +30,7 @@ public abstract class Player
      * Ensure that the playerID is unique
      * @param givenID the playerID to set
      */
-    public void setPlayerID(String givenID) 
-    {
+    public void setPlayerID(String givenID) {
         playerID = givenID;
     }
     

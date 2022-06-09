@@ -7,8 +7,7 @@ package ca.sheridancollege.project;
  * @author mehakpreet, 2022
  * @author jobanpreet, 2022
  */
-public abstract class Player 
-{
+public abstract class Player {
     private String playerID; //the unique ID for this player
     
     /**
